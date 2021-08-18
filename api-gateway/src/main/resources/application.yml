@@ -1,0 +1,16 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user_route
+          uri: http://localhost:10100/
+          predicates:
+            - Path=/user/**
+        - id: product_route
+          uri: http://localhost:10110/
+          predicates:
+            - Path=/product/**
+        - id: payment_route
+          uri: http://localhost:10120/
+          predicates:
+            - Path=/payment/**

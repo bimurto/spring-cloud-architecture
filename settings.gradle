@@ -1,0 +1,6 @@
+rootProject.name = 'spring-cloud-architecture'
+include 'api-gateway'
+include 'user-service'
+include 'product-service'
+include 'payment-service'
+
