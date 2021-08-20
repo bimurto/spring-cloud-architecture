@@ -1,6 +1,6 @@
 package io.bimurto.paymentservice.controller;
 
-import io.bimurto.restlibs.product.ProductApi;
+import io.bimurto.restlibs.productservice.ProductApi;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
