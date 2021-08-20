@@ -19,12 +19,7 @@ ext {
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
-    implementation 'org.springframework.cloud:spring-cloud-starter-config'
-    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
-    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
-    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
-
-    implementation project(":rest-libs")
+    implementation 'org.springframework.cloud:spring-cloud-config-server'
 
     implementation "org.zalando:logbook-spring-boot-starter:2.11.0"
     implementation "org.zalando:logbook-json:2.11.0"
